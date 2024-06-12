@@ -1,0 +1,9 @@
+python -m grpc_tools.protoc --proto_path=. --python_out=. --grpc_python_out=. ./auth_service.proto
+python -m grpc_tools.protoc --proto_path=. --python_out=. --grpc_python_out=. ./rpc_create_vacancy.proto
+python -m grpc_tools.protoc --proto_path=. --python_out=. --grpc_python_out=. ./rpc_signin_user.proto
+python -m grpc_tools.protoc --proto_path=. --python_out=. --grpc_python_out=. ./rpc_signup_user.proto
+python -m grpc_tools.protoc --proto_path=. --python_out=. --grpc_python_out=. ./rpc_update_vacancy.proto
+python -m grpc_tools.protoc --proto_path=. --python_out=. --grpc_python_out=. ./user.proto
+python -m grpc_tools.protoc --proto_path=. --python_out=. --grpc_python_out=. ./user_service.proto
+python -m grpc_tools.protoc --proto_path=. --python_out=. --grpc_python_out=. ./vacancy.proto
+python -m grpc_tools.protoc --proto_path=. --python_out=. --grpc_python_out=. ./vacancy_service.proto

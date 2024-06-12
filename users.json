@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Name1",
+    "email": "v1v1v2013vlad@gmail.com",
+    "password": "12345",
+    "passwordConfirm": "12345"
+  },
+  {
+    "name": "Name2",
+    "email": "vl-borisof@yandex.ru",
+    "password": "12345",
+    "passwordConfirm": "12345"
+  },
+  {
+    "name": "Name3",
+    "email": "borisov.chatgpt4@gmail.com",
+    "password": "12345",
+    "passwordConfirm": "12345"
+  }
+]
